@@ -4,6 +4,8 @@
  */
 package fibonacci;
 
+import static fibonacci.FibonacciRe.fibonacciRe;
+
 /**
  *
  * @author HP pro
@@ -15,6 +17,7 @@ public class Fibonacci {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println(fibonacciRe(6));
     }
     
 }
